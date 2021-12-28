@@ -20,9 +20,21 @@
 
 // console.log(personalMovieDB);
 
-const num = 50;
-if (num < 60 ){
-    console.log("ok");
-} else {
-    console.log("false");
+
+//_________________________________________________________
+// const num = 50;
+// if (num < 30 ){
+//     console.log("ok");
+// } else {
+//     console.log("false");
+// }
+
+
+
+
+let num = 1;
+
+while (num <= 10){
+    console.log(num);
+    num++;
 }
