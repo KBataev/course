@@ -1,23 +1,28 @@
-'use strict';
+ 'use strict';
 
-const numberOfFilms = +prompt("Сколько фильмов вы уже просмотрели?", " ");
+// const numberOfFilms = +prompt("Сколько фильмов вы уже просмотрели?", " ");
 
-const personalMovieDB = {
-    count: numberOfFilms,
-    movies: {},
-    actors: {},
-    genres: [],
-    private: false 
-};
+// const personalMovieDB = {
+//     count: numberOfFilms,
+//     movies: {},
+//     actors: {},
+//     genres: [],
+//     private: false 
+// };
 
-const a = prompt ("Один из последниз просмотренных фильмов", ""),
-      b = prompt ("На сколько цените его?", ""),
-      c = prompt ("Один из последних просмотренных фильмов?", ""),
-      d = prompt ("На сколько цените его?", "");
+// const a = prompt ("Один из последниз просмотренных фильмов", ""),
+//       b = prompt ("На сколько цените его?", ""),
+//       c = prompt ("Один из последних просмотренных фильмов?", ""),
+//       d = prompt ("На сколько цените его?", "");
 
-personalMovieDB.movies[a] = b;
-personalMovieDB.movies[c] = d;
+// personalMovieDB.movies[a] = b;
+// personalMovieDB.movies[c] = d;
 
-console.log(personalMovieDB);
-console.log(numberOfFilms);
+// console.log(personalMovieDB);
 
+const num = 50;
+if (num < 60 ){
+    console.log("ok");
+} else {
+    console.log("false");
+}
